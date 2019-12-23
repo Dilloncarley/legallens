@@ -1,7 +1,19 @@
-Gather Rent leases 
-Analyze Rent leases to build data set:
-    1. Select sentence that says when the lease starts and ends
-    2. Select sentence that says what day of the month the rent is due:
+# Legal Lens
+This project is to serve the purpose of analysing rent agreements and highlighting important pieces of information in them. This could include when the rent is due each month, any security deposits due, moveout agreements, etc. 
+
+## Natural Language Processing Library That I am Using
+https://spacy.io/
+
+### First Goals
+* Find the lease terms (start, end) dates
+* Find when the rent is due each month
+
+#### How to Achieve these Goals
+
+* Gather Training Rent leases (Getting mine from https://www.docracy.com/) Just search "rent leases" or something similar
+* Analyze Rent leases to build data set:
+    1. Select sentences that states when the lease starts and ends
+    2. Select sentences that states what day of the month the rent is due:
         (This should include if the lease says monthly, bi-weekly or weekly)
 
 LABELS:
