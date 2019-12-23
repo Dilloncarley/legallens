@@ -17,9 +17,9 @@ https://spacy.io/
         (This should include if the lease says monthly, bi-weekly or weekly)
 
 LABELS:
-RENT_DUE_DATE,
-RENT_START_DATE
-RENT_END_DATE
+* RENT_DUE_DATE,
+* RENT_START_DATE
+* RENT_END_DATE
 
 ==========================
 
