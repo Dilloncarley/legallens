@@ -25,10 +25,11 @@ RENT_END_DATE
 
 EXAMPLE Training Data:
 
-```TRAINING_DATA = [
+```
+TRAINING_DATA = [
 ("Rent is due on the 1st of each month.", {'entities': [(23, 38, 'RENT_DUE_DATE')]}),
 ("Rent $655 (Monthly)", {'entities': [(14, 20, 'RENT_DUE_DATE')]}),
 ("This lease begins on October 21, 2019", {'entities': [(25, 39, 'RENT_START_DATE')]}),
-("This lease ends on November 21, 2020", {'entities': [(23, 38, 'RENT_END_DATE')]}),
-    # And many more examples...
-]```
+("This lease ends on November 21, 2020", {'entities': [(23, 38, 'RENT_END_DATE')]})
+]
+```
